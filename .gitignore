@@ -1,0 +1,25 @@
+# Jangan pernah upload .env (berisi API Key dan Token)
+.env
+
+# File Python cache
+__pycache__/
+*.py[cod]
+
+# File editor
+.vscode/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+.env/
+ENV/
+env.bak/
+*.egg-info/
+
+# Log files
+*.log
+
+# Mac/Linux/Windows OS files
+.DS_Store
+Thumbs.db
